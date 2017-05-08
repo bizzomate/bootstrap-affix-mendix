@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="BootstrapAffix.widget.BootstrapAffix" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>BootstrapAffix</name>
+    <description>The description of this widget.</description>
+
+    <icon />
+
+    <properties>
+      <property key="itemSelector" type="string" required="true" defaultValue="">
+          <caption>CSS selector</caption>
+          <category>Settings</category>
+          <description>CSS selector of the item to be affixed.</description>
+      </property>
+      <property key="offsetTop" type="integer" required="true" defaultValue="0">
+          <caption>Offset top</caption>
+          <category>Settings</category>
+          <description>Pixels to offset from top screen when calculating position of scroll.</description>
+      </property>
+    </properties>
+</widget>

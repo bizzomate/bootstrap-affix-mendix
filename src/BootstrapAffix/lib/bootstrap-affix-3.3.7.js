@@ -181,3 +181,7 @@ if (typeof jQuery === 'undefined') {
   })
 
 }(jQuery);
+
+define([], function(){
+    return $.fn.affix;
+});
